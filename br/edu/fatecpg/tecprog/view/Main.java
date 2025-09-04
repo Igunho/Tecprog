@@ -110,6 +110,96 @@ public class Main {
 	
 		System.out.println("O papagaio super icônico e fácil de lembrar, Skully tem " + louroJose.idade + "anos");
 		skully.Cantar();
+
+		Pinguim cadumaveric = new Pinguim();
+		cadumaveric.especie = "pinguim saltador da rocha";
+		cadumaveric.altura = 1.30;
+		cadumaveric.cor_plumagem = "preto e branco"; 
+		cadumaveric.idade = 17; 
+		cadumaveric.filhotes = 0;
+		
+		System.out.println("o cadu maveric é da raça " + cadumaveric.especie );
+		cadumaveric.nadar();
+		
+		Pinguim rico = new Pinguim();
+		cadumaveric.especie = "pinguim imperador";
+		cadumaveric.altura = 0.70;
+		cadumaveric.cor_plumagem = "preto e branco"; 
+		cadumaveric.idade = 30; 
+		cadumaveric.filhotes = 2;
+		
+		System.out.println("o cadu maveric é da raça " + cadumaveric.especie );
+		rico.chocar_ovos();
+		
+		Gato felix  = new Gato();
+		felix.raça = "vira lata";
+		felix.idade = 3;
+		felix.peso = 5.5;
+		felix.cor_olhos = "preto";
+		
+		System.out.println("o gato felix tem os olhos da cor " + felix.cor_olhos );
+		felix.caçar();
+		
+		Gato mimi  = new Gato();
+		felix.raça = "persa";
+		felix.idade = 10;
+		felix.peso = 7.4;
+		felix.cor_olhos = "azul";
+		
+		System.out.println("a gata mimi pesa " + mimi.peso );
+		mimi.ronronar();
+		
+		Coelho pernalonga = new Coelho();
+		pernalonga.tamanho_orelhas = 17.4;
+		pernalonga.idade = 85;
+		pernalonga.cor = "cinza";
+		pernalonga.peso = 7.9;
+		
+		System.out.println("o perna longa tem " + pernalonga.idade + " anos");
+		pernalonga.comer();
+		
+		Coelho coelhobranco = new Coelho();
+		pernalonga.tamanho_orelhas = 10.0;
+		pernalonga.idade = 7;
+		pernalonga.cor = "branco";
+		pernalonga.peso = 4.2;
+		
+		System.out.println("o coelho branco tem a cor " + coelhobranco.cor + " quem adivinharia");
+		coelhobranco.correr();
+		
+		Raposa robinhood = new Raposa();
+		robinhood.cor_pelo = "laranja";
+		robinhood.especie = "raposa vermelha";
+		robinhood.tamanho = 1.8;
+		robinhood.habitat = "reino magico";
+		
+		System.out.println("o robinhood tem " + robinhood.tamanho + " de altura");
+		robinhood.caçar();
+		
+		Raposa tails = new Raposa();
+		tails.cor_pelo = "laranja";
+		tails.especie = "raposa vermelha";
+		tails.tamanho = 0.80;
+		tails.habitat = "greenhill zone";
+		
+		System.out.println("o tails mora no habitat " + tails.habitat );
+		tails.correr();
+		
+		Cavalo spirit = new Cavalo();
+		spirit.raça = "mustang";
+		spirit.cor_pelagem = "bege";
+		spirit.tamanho = 2.7;
+		
+		System.out.println("o cavalo spirit é da raça " + spirit.raça);
+		spirit.galopar();
+		
+		Cavalo pédepano = new Cavalo();
+		pédepano.raça = "mustang";
+		pédepano.cor_pelagem = "branco";
+		pédepano.tamanho = 2.3;
+		
+		System.out.println("o cavalo pé de pano tem a cor " + pédepano.cor_pelagem);
+		pédepano.saltar();
 	}
 
 }
