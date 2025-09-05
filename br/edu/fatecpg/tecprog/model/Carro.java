@@ -1,4 +1,4 @@
-package br.edu.fatecpg.progabstracao.model;
+package br.edu.fatecpg.tecprog.model;
 
 public class Carro {
 	public String cor;
